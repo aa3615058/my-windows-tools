@@ -1,0 +1,1 @@
+netsh wlan stop hostedne twork netsh wlan stop hostednetwork
