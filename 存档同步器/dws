@@ -1,0 +1,6 @@
+option batch continue
+option confirm off
+open sftp://ypl:654321@10.210.45.248
+option transfer binary
+get "/mnt/sdb/Ñ¼×ìÎë/¶«·½project/Wandering Souls/*.rvdata" "D:\\games\\Wandering Souls\\*"
+exit

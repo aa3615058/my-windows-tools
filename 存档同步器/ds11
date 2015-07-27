@@ -1,0 +1,6 @@
+option batch continue
+option confirm off
+open sftp://ypl:654321@10.210.45.248
+option transfer binary
+get "/mnt/sdb/Users/Administrator/Documents/Koei/San11 Tc/SaveData/*.s11" "C:\\Users\\Administrator\\Documents\\KOEI\\San11 Tc\\SaveData\\*"
+exit
